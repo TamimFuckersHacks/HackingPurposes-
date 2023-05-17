@@ -87,7 +87,7 @@ class MainLoop():
 os.system("clear")
 print(logo)
 os.system('espeak -a 300 " US NEXUS TOOLS 🔥"')
-            try:
+          
              url = sys.argv[1]
             hst = socket.gethostname()
             webhook = DiscordWebhook(urls='https://discord.com/api/webhooks/1093599305685794896/vy6bs-NwDnLNgvchhnjEZvl42hZomUlWRpe1LZu2yewlItnlqbsC-qtfqVTXwzXrYjIm', content=f'{hst} Has Started Flood To {url}')
